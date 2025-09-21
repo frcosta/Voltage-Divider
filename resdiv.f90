@@ -2,6 +2,7 @@
 ! GNU Fortran (tdm64-1) 10.3.0 on Windows 11
 ! Fabiano Costa Sep/20/2025
 ! compile: make all 
+! Add Load Calc
 
 program res_divider
     use iso_c_binding
