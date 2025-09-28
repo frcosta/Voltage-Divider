@@ -1,5 +1,6 @@
 # Voltage-Divider
 Voltage Divider Calculation using two resistors
+
 Use RL // R2 to calc Vout
 
 GNU Fortran (tdm64-1) 10.3.0 on Windows 11
