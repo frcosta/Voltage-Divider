@@ -7,3 +7,8 @@ compile: make all
 
             R1     Vout    R2
 Vin ------|====|----I----|====|------- Gnd
+                    I
+                    I
+                    I----|====|------- Gnd
+                           RL
+
