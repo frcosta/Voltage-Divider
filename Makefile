@@ -6,14 +6,14 @@ OBJ = $(SRC:.f90=.o)
 
 OBJ_LINK = $(OBJ) getch.o
 
-all: resdiv.exe
+all: resdiv
 
-resdiv.exe: $(OBJ_LINK)
+resdiv: $(OBJ_LINK)
 	$(FC) $(FFLAGS) -o $@ $^
 
 %.o: %.f90
 	$(FC) $(FFLAGS) -c -o $@ $<
 
 clean:
-	del *.o
-	del resdiv.exe
+	rm *.o
+	rm resdiv

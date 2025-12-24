@@ -24,7 +24,7 @@ program res_divider
     write(*,'(A)')       '1) Vout? Select Vin, R1, R2'
     write(*,'(A)')       '2) R1?   Select Vin, Vout, R2'
     write(*,'(A)')       '3) R2?   Select Vin, Vout, R1'
-    write(*,'(A, /)')    '4) R1?   Select Vin, Vout, R2, RL'         
+    write(*,'(A, /)')    '4) R1?   Select Vin, Vout, R2, RL'
     write(*,'(A)')       '=================================='
     write(*,'(A)', advance="no") 'Select your choice: '
     k = getch()
